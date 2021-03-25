@@ -9,7 +9,7 @@
   */
 #include "Direction.hpp"
 #include "doctest.h"
-// #include "Board.hpp"
+#include "Board.hpp"
 #include <iostream>
 #include <ctime>
 #include <stdexcept>
