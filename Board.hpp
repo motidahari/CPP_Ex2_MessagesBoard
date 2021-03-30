@@ -25,7 +25,6 @@ namespace ariel {
         public:
             map<uint, map<uint, Char>> boardMat;
             uint endRow = 0, endColumn = 0, startColumn = UINT32_MAX, startRow = UINT32_MAX;
-
             /**
              * post
              * @param: row - The number of row we start adding the message from

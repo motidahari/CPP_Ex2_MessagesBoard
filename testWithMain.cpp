@@ -63,9 +63,9 @@ int main(){
 
     row = rand()%maxRows;
     col = rand()%maxColums;
-    for (size_t i = 0; i < 50; i++){
-        msg = getMsgWithSizeAndVal(20,'a' + i);
-        msg2 = getMsgWithSizeAndVal(20,'b'+ i);
+    for (size_t i = 0; i < 30; i++){
+        msg = getMsgWithSizeAndVal(30,'a' + i);
+        msg2 = getMsgWithSizeAndVal(30,'b'+ i);
         board2.post(i+10,i+10,ariel::Direction::Horizontal,msg);
         board2.post(i+10,i+10,ariel::Direction::Vertical,msg); 
     }
